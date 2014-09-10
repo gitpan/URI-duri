@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,46 +14,30 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 68fdb6e06628b892ee6dfd4ad00f8d2dceaf1d8f Changes
-SHA1 cc087c3dd6e1b519c680e68cd0231735a68300a0 LICENSE
-SHA1 f53de3e42508c57c2cb9f53d2f51a00d141b449d MANIFEST
-SHA1 faf2ab3ee2e585a292a18057b94d46abf9b8ec00 META.yml
-SHA1 7150e5e086ef493e1e527a1eeec44a8344b80db6 Makefile.PL
-SHA1 f0f242e2804af5da8a9216761e09ab2ab0689a84 README
+SHA1 33317486c4fa2cf7fec85bf92ed38ac0f64233a0 CONTRIBUTING
+SHA1 a7524a404354988286909a73760e6f1211daddd8 COPYRIGHT
+SHA1 540e627824058dc4b3f75009923f7af8f8e388c8 CREDITS
+SHA1 2e7158bc78cca0451ca84d8e1c16b8bdda5c3370 Changes
+SHA1 0c30d713400b18bb9981a6e93082fe583723803f INSTALL
+SHA1 34f5e12514b91055de4b164a1f2327ef5c30ba53 LICENSE
+SHA1 df4372f3679110d04c51901f1ce88a5dcc0f1ece MANIFEST
+SHA1 fef74751331d751302483dea1637058decfdb722 META.json
+SHA1 70790130831ec562e123a0ee5194127ad82416c4 META.yml
+SHA1 edf0bb619048ed556b42a7fb2a78a6f36ab50730 Makefile.PL
+SHA1 38ab21300b1932f603e57b25a4850910e04379bb README
+SHA1 fdc98753880b8ae3360d09cdf2c93c92364b5313 dist.ini
+SHA1 ac3d1ede6e3e708e542ab7b0538f5afbdc925a09 doap.ttl
 SHA1 f29fe0a5d96e5c2417fe31a462cca2709036fa3d examples/duri.pl
-SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
-SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
-SHA1 61ab1dd37e33ddbe155907ce51df8a3e56ac8bbf inc/Module/Install/AutoInstall.pm
-SHA1 c04f94f91fa97b9f8cfb5a36071098ab0e6c78e3 inc/Module/Install/AutoManifest.pm
-SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
-SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
-SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
-SHA1 66d3d335a03492583a3be121a7d888f63f08412c inc/Module/Install/Include.pm
-SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
-SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
-SHA1 3b9281ddf7dd6d6f5de0a9642c69333023193c80 inc/Module/Install/Package.pm
-SHA1 b86d0385e10881db680d28bde94f275e49e34a27 inc/Module/Install/TrustMetaYml.pm
-SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
-SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
-SHA1 6b807287940754cc31a3db59f2b22e363d5525be inc/Module/Package/Dist/RDF.pm
-SHA1 e31c281782183601e1e057c5914f63269e043932 inc/Scalar/Util.pm
-SHA1 5eae2f71c45a996a296d2445b18d0589307111f0 inc/Scalar/Util/PP.pm
-SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
-SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
-SHA1 114363175826dfa7250f6a1e9ba02b77d430ff63 lib/URI/_duri_tdb.pm
-SHA1 eee94adaa491fd8b9f1af97929eea93fa87481cd lib/URI/duri.pm
-SHA1 bd482e62faa6679cb432ce745afbfd300de686a2 lib/URI/tdb.pm
-SHA1 ed6994f1c4b5c92b45c8ca79d16184df23f10ced meta/changes.ttl
-SHA1 48afe66fe17fe36bf369c4255c31802bc00d41a9 meta/doap.ttl
-SHA1 daf3c173054cf6a52880348c15a650c0c2900ab4 meta/makefile.ttl
+SHA1 6ba416a977db4983065d99694ea0141cc2ddd8d4 lib/URI/_duri_tdb.pm
+SHA1 102d8b33190d240411f70ba5cf5fd46f59d3723e lib/URI/duri.pm
+SHA1 c6d9794e7b4c2a9630edfc604a7b6d278f10b279 lib/URI/tdb.pm
 SHA1 0a85ee2f0d7d0f72e87a59f99d268aa218f04d99 t/01basic.t
 SHA1 342c82c85775991f4c520c657fbab123b82cbfe8 t/02duri.t
 SHA1 83ea24a41f53731f044b02ebe14001ca0d23feca t/03tdb.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1
 
-iEYEARECAAYFAk/dmZcACgkQzr+BKGoqfTmHLgCeKQT/kIEKvQZPsFoQXgyAQO5C
-J0AAnRDaCJ88I7zQIl8yM24yv0Z1uh/E
-=SGqJ
+iEYEARECAAYFAlQQzpYACgkQzr+BKGoqfTkhtwCcCCbuQji43/BlxlHw/fdapdqc
+hJQAmwUHydXkUWa6BrPi7kyOao3gebGq
+=hPAu
 -----END PGP SIGNATURE-----

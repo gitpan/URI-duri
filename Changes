@@ -4,13 +4,19 @@ URI-duri
 Created:      2012-06-15
 Home page:    <https://metacpan.org/release/URI-duri>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=URI-duri>
+Maintainer:   Toby Inkster <tobyink@cpan.org>
 
-0.002  2012-06-17
+0.003	2014-09-10
 
- - (Bugfix) Workaround bizarro %+ hash slice bug
+ [ Packaging ]
+ - Switch to Dist::Inkt.
+
+0.002	2012-06-17
+
+ [ Bug Fixes ]
+ - Workaround bizarro %+ hash slice bug
    (http://www.perlmonks.org/index.pl?node_id=976633) in Perl versions
    older than 5.16.
+   <http://www.perlmonks.org/index.pl?node_id=976633>
 
-0.001  2012-06-16  # Initial release
-
-
+0.001	2012-06-16	Initial release

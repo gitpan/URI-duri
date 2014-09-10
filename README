@@ -16,62 +16,61 @@ DESCRIPTION
   Constructor
     The constructor can be called in two forms:
 
-    "new($string)"
-    "new(\%hash)"
+    `new($string)`
+    `new(\%hash)`
 
-    When called with a string argument, must be a URI string conforming to
-    the dated URI Internet Draft.
+    When called with a string argument, must be a URI string conforming to the
+    dated URI Internet Draft.
 
-    If called with a hashref argument, the hash must have a key
-    "embedded_uri" which is a string or URI object. It may have a key
-    "datetime_string" which is a string representing a datetime in the
-    format required by the dated URI specification; alternatively it may
-    have a key "datetime" which is a DateTime or (better)
-    DateTime::Incomplete object; if neither are present, then the current
-    time is used instead.
+    If called with a hashref argument, the hash must have a key `embedded_uri`
+    which is a string or URI object. It may have a key `datetime_string` which
+    is a string representing a datetime in the format required by the dated
+    URI specification; alternatively it may have a key `datetime` which is a
+    DateTime or (better) DateTime::Incomplete object; if neither are present,
+    then the current time is used instead.
 
   Methods
     The following accessors are provided:
 
-    "datetime"
-    "datetime($object)"
+    `datetime`
+    `datetime($object)`
         Get/set the URI's datetime as a DateTime::Incomplete object.
 
-    "datetime_string"
-    "datetime_string($string)"
+    `datetime_string`
+    `datetime_string($string)`
         Get/set the URI's datetime as a literal string.
 
-    "embedded_uri"
-    "embedded_uri($uri)"
+    `embedded_uri`
+    `embedded_uri($uri)`
         Get/set the embedded URI as a URI object. (The setter may also be
         called with a plain string.)
 
     The following methods are inherited from URI and make sense to use:
 
-    "scheme"
-    "scheme($string)"
+    `scheme`
+    `scheme($string)`
         Get/set the URI scheme.
 
-    "as_string"
+    `as_string`
         Get the URI as a string.
 
-    "as_iri"
+    `as_iri`
         Get the URI as a Unicode string.
 
-    "canonical"
+    `canonical`
         Get the URI as a canonical string.
 
-    "secure"
+    `secure`
         Returns false, though the method doesn't make much sense. One URI is
         no more secure than another; it is protocols that can be secure or
         insecure.
 
-    "eq($uri)"
+    `eq($uri)`
         Tests if this URI is equal to another.
 
     The following methods are also inherited from URI, but don't make much
-    sense to use: "opaque", "path", "fragment". It generally makes more
-    sense to inspect the embedded URI:
+    sense to use: `opaque`, `path`, `fragment`. It generally makes more sense
+    to inspect the embedded URI:
 
      say $duri->embedded_uri->fragment;
 
@@ -94,8 +93,8 @@ AUTHOR
 COPYRIGHT AND LICENCE
     This software is copyright (c) 2012 by Toby Inkster.
 
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
+    This is free software; you can redistribute it and/or modify it under the
+    same terms as the Perl 5 programming language system itself.
 
 DISCLAIMER OF WARRANTIES
     THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
